@@ -1,25 +1,24 @@
-## Introduction
+Python has a built in function called `strftime` which can provide a date and/or time, formatted as a string.
 
-Add project description here. What will learners be making?
++ Add this line of code at the top of your Python file to import the function
 
-### What you will make
+```python
+from time import strftime
+```
 
-Add something here to showcase here, for example:
+You can ask for the current date or time in any format
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+For example, if the date today is 23rd October 2017:
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+```python
+day = strftime("%d")    # Results in 23
+month = strftime("%B")  # Results in October
+whole_date = strftime("%d/%m/%y")   # Results in 23/10/17
+```
 
-### What you will learn
+You can choose the format you would like by looking up the items you want in the [strftime reference](http://strftime.org/). You can use any combination of the format strings (which start with "%") and other characters such as / for date or : for time.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
-
-### Additional information for educators
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
-
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+```python
+full_datetime = strftime("%d/%m/%y at %I:%M%p")
+# Results in 23/10/17 at 09:20AM
+```
