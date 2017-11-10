@@ -1,0 +1,14 @@
+title: Getting the current date or time in Python
+hero_image: images/banner.png
+description: How to obtain a string containing the current date or time in Python
+theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2 # possible values: 1, 2 or 3
+listed: false
+ingredient: true
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: ""
+technologies: "python"
+site_areas:
+steps:
+  - title: Getting the current date or time in Python
