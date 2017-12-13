@@ -14,7 +14,7 @@ month = strftime("%B")  # Results in 'October'
 whole_date = strftime("%d/%m/%y")   # Results in '23/10/17'
 ```
 
-You can choose the format you would like by looking up the items you want in the [strftime reference](http://strftime.org/). The `strftime` function allows you to use any combination of the **format strings** (which start with `%`) and other characters, such as `/` for date or `:` for time.
+You can choose the format you would like by looking up the items you want in the [strftime reference](http://strftime.org/){:target="_blank"}. The `strftime` function allows you to use any combination of the **format strings** (which start with `%`) and other characters, such as `/` for date or `:` for time.
 
 ```python
 full_datetime = strftime("%d/%m/%y at %I:%M%p")
